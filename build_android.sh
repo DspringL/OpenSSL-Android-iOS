@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
-WORK_PATH=/mnt/d/workspace/openssl-3.0.12
+WORK_PATH=~/Downloads/openssl-3.0.12
 #$(cd "$(dirname "$0")";pwd)
-ANDROID_NDK_PATH=/home/tattoo/workspace/android-ndk-r21e
+ANDROID_NDK_PATH=/sdk/android-sdk/ndk-bundle
 OPENSSL_SOURCES_PATH=${WORK_PATH}
 ANDROID_TARGET_API=21
 ANDROID_TARGET_ABI=$1
