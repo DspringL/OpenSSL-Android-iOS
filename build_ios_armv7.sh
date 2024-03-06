@@ -7,7 +7,7 @@ export CROSS_TOP=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.p
 export CROSS_SDK=iPhoneOS.sdk
 export PATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:$PATH
 
-./Configure ios64-cross no-shared no-dso no-hw no-engine --prefix="${WORK_PATH}/openssl-ios64"
+./Configure ios-cross no-shared no-dso no-hw no-engine --prefix="${WORK_PATH}/openssl-iosarmv7"
 
 make
 make install

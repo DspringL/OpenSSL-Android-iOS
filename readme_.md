@@ -8,6 +8,7 @@ cd ~/Downloads
 # 下载
 wget -P ~/Downloads/ https://github.com/openssl/openssl/releases/download/openssl-3.0.12/openssl-3.0.12.tar.gz
 # 解压
+tar -zxvf openssl-3.0.12.tar.gz
 ```
 
 

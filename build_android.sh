@@ -1,6 +1,8 @@
 #!/bin/bash -e
+current_user=`whoami`
+WORK_PATH=/Users/${current_user}/Downloads/openssl-3.0.12
+cd ${WORK_PATH}
 
-WORK_PATH=~/Downloads/openssl-3.0.12
 #$(cd "$(dirname "$0")";pwd)
 ANDROID_NDK_PATH=/sdk/android-sdk/ndk-bundle
 OPENSSL_SOURCES_PATH=${WORK_PATH}
